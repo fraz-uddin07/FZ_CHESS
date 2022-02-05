@@ -1,0 +1,3 @@
+# This is a test makefile...
+all:
+	g++ -std=c++17 -Wall -Wshadow -Iinclude -Iinclude/SDL2 -Iinclude/headers -Llib -o Main src/*.cpp -lSDL2main -lSDL2 -lSDL2_image
