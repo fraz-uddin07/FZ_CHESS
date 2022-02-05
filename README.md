@@ -47,7 +47,7 @@ then the make utility is working correctly.
 
 The SDL2 and SDL_Image Development Libraries are already included with the Source Code. Installing these Libraries manually is not necessary. 
 
-## Building form source
+## Building from source
 
 Download the Source Code from the [fzchess][main] branch. Open up a terminal and navigate to the main folder.
 Type :
@@ -57,6 +57,9 @@ make
 ```
 
 and it should create the Game Executable called "main.exe" in the main folder.
+If you encounter an error, please create a PR and let me know or try to figure it out.
+If you want to create a custom build process, the "Makefile" present in the main folder can also be modified. 
+
 Open "main.exe" to run the game....Enjoy!!!
 
 
